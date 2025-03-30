@@ -1,0 +1,92 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Globalization
+@using GeneralManagement.Domain.GeneralAgg
+@using My_ShopQuery.Contract.GeneralSetting
+@model My_ShopQuery.Contract.AboutUs.AboutUsQueryModel
+@inject IViewLocalizer Localizer
+@inject IGeneralSettingQueryModel _general
+
+<section class="intro-about section-margin have-dsn-animate-number" data-dsn-animate="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="intro-about-info">
+                    <div class="section-title-2">
+                        <h2>درباره ما</h2>
+                        <p>آنچه ما انجام می دهیم</p>
+                    </div>
+
+                    <div class="intro-about-info-bottom">
+                        <h2 class="title-h2 dsn-up">ما از سال 1395 در حال انجام پروژه ها هستیم.</h2>
+
+                        <p class="dsn-text">دیزاین گرید که در سال 2000 تاسیس شد، به یکی از بهترین آژانس های دیجیتال در تم فارست تبدیل شده است.</p>
+
+                        <div class="accordion mt-30">
+                            <div class="accordion__wrapper">
+                                <div class="accordion__item dsn-up">
+                                    <div class="accordion__question expanded d-flex align-items-center p-relative">
+                                        <span class="icon">
+                                            <img src="assets/img/vision.svg" alt="" />
+                                        </span>
+                                        <h4 class="sm-title-block">چشم انداز ما</h4>
+                                    </div>
+                                    <div class="accordion__answer active">
+                                        <p>لورم ایپسوم متن ساختگی با تولید، تمام روح من را تسخیر کرد، مانند این صبح های شیرین بهاری که با تمام وجود از آن لذت می برم.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion__item dsn-up">
+                                    <div class="accordion__question d-flex align-items-center p-relative">
+                                        <span class="icon">
+                                            <img src="assets/img/target.svg" alt="" />
+                                        </span>
+                                        <h4 class="sm-title-block">اهداف ما</h4>
+                                    </div>
+                                    <div class="accordion__answer">
+                                        <p>لورم ایپسوم متن ساختگی با تولید، تمام روح من را تسخیر کرد، مانند این صبح های شیرین بهاری که با تمام وجود از آن لذت می برم.</p>
+                                    </div>
+                                </div>
+
+                                <div class="accordion__item dsn-up">
+                                    <div class="accordion__question d-flex align-items-center p-relative">
+                                        <span class="icon">
+                                            <img src="assets/img/mission.svg" alt="" />
+                                        </span>
+                                        <h4 class="sm-title-block">ماموریت ما</h4>
+                                    </div>
+                                    <div class="accordion__answer">
+                                        <p>لورم ایپسوم متن ساختگی با تولید، تمام روح من را تسخیر کرد، مانند این صبح های شیرین بهاری که با تمام وجود از آن لذت می برم.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="box-img p-relative over-hidden">
+                    <div class="bg-section p-absolute w-100 h-100">
+                        <div class="h-100" data-dsn-grid="move-up">
+                            <img class="cover-bg-img has-top-bottom" src="assets/img/about-intro.jpg" alt="" />
+                        </div>
+                    </div>
+                    <img src="assets/img/about-intro.jpg" alt="" />
+
+                    <div class="exper background-theme p-absolute">
+                        <div class="numb-ex">
+                            <span class="word-text has-animate-number">25</span>
+                        </div>
+
+                        <h4 class="sm-title-block dsn-up">
+                            سال <br />
+                            تجربه دیجیتال
+                        </h4>
+                        <div class="shap-section">
+                            <img src="assets/img/arr.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

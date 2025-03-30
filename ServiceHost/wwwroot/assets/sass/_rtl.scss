@@ -1,0 +1,175 @@
+@font-face {
+	font-family: YekanBakhFaNum;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../fonts/woff/YekanBakhFaNum-thin.woff') format('woff'),
+	url('../fonts/woff2/YekanBakhFaNum-thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: YekanBakhFaNum;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/woff/YekanBakhFaNum-Light.woff') format('woff'),
+	url('../fonts/woff2/YekanBakhFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: YekanBakhFaNum;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/woff/YekanBakhFaNum-Regular.woff') format('woff'),
+	url('../fonts/woff2/YekanBakhFaNum-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: YekanBakhFaNum;
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/woff/YekanBakhFaNum-SemiBold.woff') format('woff'),
+	url('../fonts/woff2/YekanBakhFaNum-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: YekanBakhFaNum;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/woff/YekanBakhFaNum-Bold.woff') format('woff'),
+	url('../fonts/woff2/YekanBakhFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: YekanBakhFaNum;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/woff/YekanBakhFaNum-ExtraBold.woff') format('woff'),
+	url('../fonts/woff2/YekanBakhFaNum-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: YekanBakhFaNum;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/woff/YekanBakhFaNum-Black.woff') format('woff'),
+	url('../fonts/woff2/YekanBakhFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: YekanBakhFaNum;
+	font-style: normal;
+	font-weight: 950;
+	src: url('../fonts/woff/YekanBakhFaNum-ExtraBlack.woff') format('woff'),
+	url('../fonts/woff2/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input [type='button'],
+input [type='checkbox'],
+input [type='color'],
+input [type='date'],
+input [type='datetime-local'],
+input [type='email'],
+input [type='file'],
+input [type='hidden'],
+input [type='image'],
+input [type='month'],
+input [type='number'],
+input [type='password'],
+input [type='radio'],
+input [type='range'],
+input [type='reset'],
+input [type='search'],
+input [type='submit'],
+input [type='tel'],
+input [type='text'],
+input [type='time'],
+input [type='url'],
+input [type='week'],
+textarea,
+button,
+select,
+option,
+optgroup,
+::placeholder {
+	direction: rtl;
+	font-family: $body-font;
+	letter-spacing: 0 !important;
+}
